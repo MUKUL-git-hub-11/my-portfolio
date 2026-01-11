@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mukul Kumar | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #6366f1, #22d3ee);
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2rem;
+      color: #38bdf8;
+    }
+
+    .about p {
+      text-align: center;
+      max-width: 700px;
+      margin: auto;
+      font-size: 1.05rem;
+    }
+
+    .skills, .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #22d3ee;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    .contact p {
+      margin-bottom: 10px;
+      font-size: 1.05rem;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 25px;
+      background: #38bdf8;
+      color: #020617;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #020617;
+      padding: 15px;
+      text-align: center;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mukul Kumar</h1>
+    <p>Creator • Developer • Designer • Gamer</p>
+  </header>
+
+  <!-- ABOUT SECTION -->
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      Hi, I'm Mukul Kumar — a creative developer and designer passionate about
+      building websites, thumbnails, and digital experiences. I love blending
+      design with technology to create impactful projects.
+    </p>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card"><h3>HTML & CSS</h3><p>Modern & responsive websites</p></div>
+      <div class="card"><h3>Graphic Design</h3><p>Thumbnails & social media posts</p></div>
+      <div class="card"><h3>Video Editing</h3><p>Shorts, reels & promos</p></div>
+      <div class="card"><h3>Game Concepts</h3><p>Story-driven ideas & design</p></div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section>
+    <h2>Services</h2>
+    <div class="services">
+      <div class="card"><h3>YouTube Thumbnails</h3><p>High CTR professional designs</p></div>
+      <div class="card"><h3>Social Media Creatives</h3><p>Instagram & brand posts</p></div>
+      <div class="card"><h3>Portfolio Websites</h3><p>Personal & business sites</p></div>
+      <div class="card"><h3>Creative Consulting</h3><p>Ideas for content & branding</p></div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: yourmail@example.com</p>
+    <p>Instagram: @yoyomukul</p>
+    <a href="mailto:yourmail@example.com" class="btn">Let's Work Together</a>
+  </section>
+
+  <footer>
+    © 2026 Mukul Kumar | All Rights Reserved
+  </footer>
+
+</body>
+</html>
